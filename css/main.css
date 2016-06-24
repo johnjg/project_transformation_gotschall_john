@@ -48,11 +48,9 @@ a {
 
 /* Header */
 #header-wrapper {
-    overflow: hidden;
 }
 
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -60,8 +58,6 @@ a {
 
 /* Logo */
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -88,15 +84,11 @@ a {
 
 /* Menu */
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -104,7 +96,6 @@ a {
 }
 
 #menu li {
-    float: left;
 }
 
 #menu a {
