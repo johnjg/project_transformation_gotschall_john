@@ -54,6 +54,7 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
+    padding: 0px 10px 0px 10px;
 }
 
 .container {
@@ -131,7 +132,22 @@ a {
     color: #FFFFFF;
 }
 
-
+@media all and (min-width: 600px) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+@media all and (min-width: 850px) {
+    nav li {
+        width: calc(100% / 3);;
+    }
+}
+@media all and (min-width: 110px) {
+    nav li {
+        width: calc(100% / 5);;
+    }
+}
 /* Banner */
 #banner {
     margin: 0px auto;
