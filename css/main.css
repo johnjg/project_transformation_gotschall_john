@@ -52,6 +52,12 @@ a {
     color: #5E5E5E;
 }
 
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
     padding: 0px 10px 0px 10px;
