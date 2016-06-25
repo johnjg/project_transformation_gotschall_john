@@ -12,10 +12,21 @@ html {
     max-width: 1200px;
 }
 
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url("../img/img01.jpg") repeat;
+    background: #050505 url("../img/buttontexture.jpg") repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5b5b5b;
@@ -63,7 +74,7 @@ a {
 }
 
 #wrapper {
-    background: #ffffff url("../img/img05.jpg") repeat;
+    background: #ffffff url("../img/backgroundtexture.jpg") repeat;
     padding: 0 10px 0 10px;
 }
 
@@ -138,7 +149,7 @@ a {
 
 #menu a:hover,
 #menu .current_page_item a {
-    background: url("../img/img01.jpg") repeat;
+    background: url("../img/buttontexture.jpg") repeat;
     text-decoration: none;
     color: #ffffff;
 }
@@ -164,7 +175,7 @@ a {
 
 #banner {
     margin: 0 auto;
-    background: url("../img/img03.png") no-repeat left bottom;
+    background: url("../img/dropshadow.png") no-repeat left bottom;
 }
 
 #banner img {
@@ -302,7 +313,7 @@ a {
 
 #sidebar section li a {
     padding: 0 0 0 20px;
-    background: url("../img/img04.jpg") no-repeat left 50%;
+    background: url("../img/bullet.jpg") no-repeat left 50%;
 }
 
 #sidebar h3 {

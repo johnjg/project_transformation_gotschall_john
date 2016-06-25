@@ -2,7 +2,7 @@
 https://github.com/johnjg/project_transformation_gotschall_john.git
 
 # Resources:
-- I did not use any resources outside of the lectures and my notes on this assignment.
+- I used the visually hidden class from this resource: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169
 
 # Comments:
 - I do not have any comments about this assignment.
